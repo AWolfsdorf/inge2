@@ -1,0 +1,42 @@
+public class ZeroAnalysisTest2 extends java.lang.Object
+{
+/*ZeroAnalysisTest2.java*/
+
+/*[Ljava.lang.String;@722ba974*/
+    public static int test2(int, int)
+    {
+        int m, n, temp$0, temp$2;
+
+        m := @parameter0: int;
+/*Source Line Pos Tag: sline: 2 eline: 2 spos: 27 epos: 31 file: ZeroAnalysisTest2.java*/
+
+        n := @parameter1: int;
+/*Source Line Pos Tag: sline: 2 eline: 2 spos: 34 epos: 38 file: ZeroAnalysisTest2.java*/
+
+        temp$0 = n - n;
+/*Source Line Pos Tag: sline: 3 eline: 3 spos: 5 epos: 18 file: ZeroAnalysisTest2.java*/
+
+        temp$2 = m / temp$0;
+/*Source Line Pos Tag: sline: 5 eline: 5 spos: 5 epos: 18 file: ZeroAnalysisTest2.java*/
+/*ZeroAbstractSet{{temp$0=maybe-zero, m=maybe-zero, n=maybe-zero}}*/
+/*Possible division by zero here*/
+
+        return temp$2;
+/*Source Line Pos Tag: sline: 6 eline: 6 spos: 5 epos: 13 file: ZeroAnalysisTest2.java*/
+    }
+
+/*[Ljava.lang.String;@7d5f051e*/
+    public void <init>()
+    {
+        ZeroAnalysisTest2 this;
+
+        this := @this: ZeroAnalysisTest2;
+/*1*/
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+/*1*/
+
+        return;
+/*1*/
+    }
+}

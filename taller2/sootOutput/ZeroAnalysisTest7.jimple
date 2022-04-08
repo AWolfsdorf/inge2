@@ -1,0 +1,47 @@
+public class ZeroAnalysisTest7 extends java.lang.Object
+{
+/*ZeroAnalysisTest7.java*/
+
+/*[Ljava.lang.String;@7bde46cc*/
+    public static int test7()
+    {
+        int d, temp$0;
+
+        temp$0 = 1 / 0;
+/*Source Line Pos Tag: sline: 7 eline: 7 spos: 7 epos: 18 file: ZeroAnalysisTest7.java*/
+/*ZeroAbstractSet{{}}*/
+/*Possible division by zero here*/
+
+        d = temp$0;
+/*Source Line Pos Tag: sline: 7 eline: 7 spos: 7 epos: 18 file: ZeroAnalysisTest7.java*/
+
+        if temp$0 > 0 goto label1;
+/*Source Line Pos Tag: sline: 9 eline: 9 spos: 11 epos: 13 file: ZeroAnalysisTest7.java*/
+
+        goto label2;
+/*Source Line Pos Tag: sline: 9 eline: 9 spos: 11 epos: 13 file: ZeroAnalysisTest7.java*/
+
+     label1:
+        d = 1;
+/*Source Line Pos Tag: sline: 10 eline: 10 spos: 9 epos: 9 file: ZeroAnalysisTest7.java*/
+
+     label2:
+        return d;
+/*Source Line Pos Tag: sline: 13 eline: 13 spos: 7 epos: 15 file: ZeroAnalysisTest7.java*/
+    }
+
+/*[Ljava.lang.String;@2e46cda8*/
+    public void <init>()
+    {
+        ZeroAnalysisTest7 this;
+
+        this := @this: ZeroAnalysisTest7;
+/*2*/
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+/*2*/
+
+        return;
+/*2*/
+    }
+}
