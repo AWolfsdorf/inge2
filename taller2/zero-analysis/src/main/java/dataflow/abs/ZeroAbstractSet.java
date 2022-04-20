@@ -24,6 +24,8 @@ public class ZeroAbstractSet {
 		}
 	}
 
+    // Por facilidad, modificamos el set in-place
+    // En caso de colisión usamos el merge de ZeroAbstractValue
 	public ZeroAbstractSet union(ZeroAbstractSet another) {
 		another.map.forEach(
 			(key, value) -> this.map.merge(key, value, (v1, v2) -> v1.merge(v2))

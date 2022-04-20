@@ -15,6 +15,8 @@ public enum ZeroAbstractValue {
     this.name = name;
   }
 
+  // Función auxiliar para obtener el abstract value a
+  // partir de una constante
   public static ZeroAbstractValue fromInt(int value) {
     if (value == 0) 
       return ZERO;
@@ -23,6 +25,8 @@ public enum ZeroAbstractValue {
     return BOTTOM;
   }
 
+  // Implementamos las tablas de valores de los ejercicios 1-7 
+  // usando switches por practicidad
   public ZeroAbstractValue add(ZeroAbstractValue another) {
     if (this == BOTTOM || another == BOTTOM) 
       return BOTTOM;

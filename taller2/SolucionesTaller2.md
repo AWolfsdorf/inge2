@@ -2,7 +2,8 @@
 
 ## Ejercicio 1
 
-Completamos la tablita:
+La tabla de la asignación de una constante a una variable `x` nos quedó de la
+siguiente manera:
 
 |n      | OUT\[n](x) |
 |-               |-  |
@@ -11,7 +12,7 @@ Completamos la tablita:
 
 ## Ejercicio 2
 
-Completamos la tablita de `(x = y)`:
+La tabla de la función de transferencia de `(x = y)` nos quedó de la siguiente manera:
 
 | IN\[n](y)     | OUT\[n](x)    |
 |-              |-              |
@@ -23,7 +24,7 @@ Completamos la tablita de `(x = y)`:
 
 ## Ejercicio 3
 
-Completamos la tablita de `(x = y + z)`
+La tabla de la función de transferencia de `(x = y + z)` nos quedó de la siguiente manera:
 
 
 | IN\[n](y)     | IN\[n](z)     |OUT\[n](x)|
@@ -48,7 +49,7 @@ Completamos la tablita de `(x = y + z)`
 
 ## Ejercicio 4
 
-Completamos la tablita de `(x = y - z)`
+La tabla de la función de transferencia de  `(x = y - z)` nos quedó de la siguiente manera:
 
 
 | IN\[n](y)     | IN\[n](z)     |OUT\[n](x) |
@@ -73,7 +74,7 @@ Completamos la tablita de `(x = y - z)`
 
 ## Ejercicio 5
 
-Completamos la tablita de `(x = y * z)`
+La tabla de la función de transferencia de   `(x = y * z)` nos quedó de la siguiente manera:
 
 
 | IN\[n](y)     | IN\[n](z)     |OUT\[n](x)  |
@@ -98,7 +99,7 @@ Completamos la tablita de `(x = y * z)`
 
 ## Ejercicio 6
 
-Completamos la tablita de `(x = y / z)`
+La tabla de la función de transferencia de  `(x = y / z)` nos quedó de la siguiente manera:
 
 
 | IN\[n](y)     | IN\[n](z)     |OUT\[n](x)  |
@@ -124,7 +125,8 @@ Completamos la tablita de `(x = y / z)`
 ## Ejercicio 7
 
 
-Completamos la tablita del grafiquito
+La tabla con los valores de IN y OUT para toda variable del probrama nos quedó
+de la siguiente manera:
 
 
 |n| IN\[n](x)     | IN\[n](y)     |OUT\[n](x)  |OUT\[n](y)  |

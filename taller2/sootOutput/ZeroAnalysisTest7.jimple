@@ -2,7 +2,7 @@ public class ZeroAnalysisTest7 extends java.lang.Object
 {
 /*ZeroAnalysisTest7.java*/
 
-/*[Ljava.lang.String;@7bde46cc*/
+/*[Ljava.lang.String;@217100ec*/
     public static int test7()
     {
         int d, temp$0;
@@ -28,9 +28,10 @@ public class ZeroAnalysisTest7 extends java.lang.Object
      label2:
         return d;
 /*Source Line Pos Tag: sline: 13 eline: 13 spos: 7 epos: 15 file: ZeroAnalysisTest7.java*/
+/*ZeroAbstractSet{{temp$0=bottom, d=not-zero}}*/
     }
 
-/*[Ljava.lang.String;@2e46cda8*/
+/*[Ljava.lang.String;@798a864a*/
     public void <init>()
     {
         ZeroAnalysisTest7 this;
