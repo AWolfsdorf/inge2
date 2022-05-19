@@ -11,6 +11,7 @@ Obtuvimos los siguientes resultados:
 Para el punto c nos devolvió que es verdadero en el modelo `x = false` y `y =
 true`.
 
+---
 
 ## Ejercicio 2
 
